@@ -1,0 +1,13 @@
+// Build script for the Common parts of OpenTerrainGenerator
+
+apply plugin: 'java'
+
+// Project properties
+archivesBaseName = "openterraingenerator-common"
+description = "Core files of OpenTerrainGenerator"
+
+repositories
+{
+    mavenLocal()
+    mavenCentral()
+}

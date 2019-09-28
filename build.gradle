@@ -1,0 +1,35 @@
+// Information for all projects
+
+// The default tasks for all projects
+defaultTasks 'clean', 'build', 'createReleaseJar', 'install'
+
+allprojects
+{
+    version = "1.12.2 - v6"
+    group = "com.pg85.otg"
+
+    // Version of the shadow plugin
+    ext.shadowVersion = '1.2.1'
+}
+
+// Information for all subprojects
+// (common, forge and bukkit, but not this file)
+subprojects
+{   task ->
+
+    task.plugins.withType(org.gradle.api.plugins.JavaBasePlugin)
+    {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+
+        // Generate Eclipse config files when using "gradle eclipse"
+        task.apply plugin: 'eclipse'
+
+        // Generate IntelliJ IDEA config files
+        task.apply plugin: 'idea'
+
+    }
+
+    // Generate a pom.xml, upload to local Maven repository
+    apply plugin: 'maven'
+}

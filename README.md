@@ -1,4 +1,4 @@
-##  OpenTerrainGenerator by PG85/PeeGee85
+##  OpenTerrainGenerator by PG85/PeeGee85 (modified by Sascha_T using code ben-mkiv from  to fix compat with CompactMachines)
 
 OpenTerrainGenerator is an advanced world generator for Minecraft. Through various configuration files it gives the user control over almost every aspect of Minecraft terrain generation, with no knowledge of Java required. It can be used on Bukkit (Spigot) and Forge servers and on single-player with Forge . OpenTerrainGenerator is a fork of Terrain Control, which is the successor to <a href="http://www.minecraftforum.net/topic/313991-phoenixterrainmod/">PhoenixTerrainMod</a>, which was based on <a href="http://www.minecraftforum.net/topic/71565-biomemod/">BiomeTerrainMod</a>. 
 
@@ -38,4 +38,4 @@ To learn more, check out <a href="https://biomebundle.wixsite.com/openterraingen
 * <a href="https://github.com/Timethor">Timethor</a>
 * <a href="https://github.com/oloflarsson">Oloflarsson</a>
 * <a href="http://dev.bukkit.org/profiles/Khoorn/">Khoorn</a> (known as <a href="https://github.com/Wickth">Wickth</a> on GitHub)
-# OTG-v4-CM-fix
+
